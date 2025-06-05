@@ -1,5 +1,5 @@
 
-import { Instagram, WhatsApp } from "lucide-react";
+import { Instagram, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -59,7 +59,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-12 h-12 bg-physio-green hover:bg-physio-green-light rounded-full transition-colors"
               >
-                <WhatsApp size={20} />
+                <MessageCircle size={20} />
               </a>
             </div>
             <p className="text-gray-300 mt-4 text-sm">
